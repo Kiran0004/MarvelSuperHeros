@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:theme="@style/AppTheme">
+    android:theme="@style/AppTheme.NoActionBar">
 
 <androidx.appcompat.widget.Toolbar
     android:id="@+id/toolbar"
@@ -17,7 +17,7 @@
     app:title="Marvel Heros"
     app:contentInsetRight="@dimen/common_zero_dp"
     app:contentInsetStart="@dimen/common_zero_dp"
-    app:titleTextColor="@color/white">
+    app:titleTextColor="@android:color/white">
 
     <RelativeLayout
         android:layout_width="match_parent"
