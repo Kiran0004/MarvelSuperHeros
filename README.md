@@ -36,17 +36,22 @@ This project is built using Clean Architecture and is structured in the followin
 
 etc...
 
-Installing
+## Marvel Super Heros - Comics Code checkout process
 
 Steps to run the project using the command line:
 
 Get the project locally:
-git clone https://github.com/Kiran0004/MarvelComics.git
+
+git clone https://github.com/Kiran0004/MarvelSuperHeros.git
+
 Navigate to the /app folder and execute assemblDebug command from Gradle Wrapper:
+
 ./gradlew assembleDebug After the build, app-debug.apk can be found inside your project dir using this path app/build/outputs/apk/debug/
+
 Using adb install project directly to a device or emulator using the command below:
 adb install app/build/outputs/apk/debug/app-debug.apk
-You can also use Android Studio for that purpose either: VSC -> Git -> Clone Insert URL https://github.com/Kiran0004/MarvelComics.git
+
+You can also use Android Studio for that purpose either: VSC -> Git -> Clone Insert URL https://github.com/Kiran0004/MarvelSuperHeros.git
 
 You can replace API keys from Constants.kt file with your own keys.
 
